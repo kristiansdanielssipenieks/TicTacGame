@@ -1,4 +1,10 @@
-// A lot of inspiration came from :https://www.youtube.com/watch?v=Zqnq-kSMMc0&ab_channel=EasyTuto, there was a plan to make the game online as well but ran into technical issues with firebase
+// A lot of inspiration came from :[https://www.youtube.com/watch?v=Zqnq-kSMMc0&ab_channel=EasyTuto], there was a plan to make the game online as well but ran into technical issues with firebase
+// Assistance provided by Google Gemini (LLM).
+// Key prompts used for development/modification:
+// - Initial request: "Do you see errors in my code? If so could you fix them and explain them to me so I dont make these mistakes in the future?"
+// - Providing existing files: "MainActivity.kt", "GameActivity.kt", "GameModel.kt"
+// - Request for UI modification: can you show me how to correctly modify the ui file to change the colors?"
+// - Request for general purpose comments: "Can you please generate simple comments for my code?"
 package com.example.tictactoe
 import android.content.Intent
 import android.os.Bundle
