@@ -1,4 +1,4 @@
-// A lot of inspiration came from :[https://www.youtube.com/watch?v=Zqnq-kSMMc0&ab_channel=EasyTuto], there was a plan to make the game online as well but ran into technical issues with firebase
+// A lot of PvP code and basis of the game came from :[https://www.youtube.com/watch?v=Zqnq-kSMMc0&ab_channel=EasyTuto], there was a plan to make the game online as well but ran into technical issues with firebase
 package com.example.tictactoe
 import android.os.Bundle
 import android.view.View
