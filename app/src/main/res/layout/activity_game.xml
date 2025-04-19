@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/game_background"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/app_name"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/game_status_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:letterSpacing="0.04"
+        android:text="Game not ready"
+        android:textColor="@color/status_text_color"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:id="@+id/game_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:background="@color/grid_background"
+        android:padding="4dp"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btn_0"
+            style="@style/TicTacToeButton.Game"
+            android:tag="0"
+            tools:text="X" />
+        <Button
+            android:id="@+id/btn_1"
+            style="@style/TicTacToeButton.Game"
+            android:tag="1"
+            tools:text="O" />
+        <Button
+            android:id="@+id/btn_2"
+            style="@style/TicTacToeButton.Game"
+            android:tag="2" />
+
+        <Button
+            android:id="@+id/btn_3"
+            style="@style/TicTacToeButton.Game"
+            android:tag="3" />
+        <Button
+            android:id="@+id/btn_4"
+            style="@style/TicTacToeButton.Game"
+            android:tag="4"
+            tools:text="X" />
+        <Button
+            android:id="@+id/btn_5"
+            style="@style/TicTacToeButton.Game"
+            android:tag="5" />
+
+        <Button
+            android:id="@+id/btn_6"
+            style="@style/TicTacToeButton.Game"
+            android:tag="6" />
+        <Button
+            android:id="@+id/btn_7"
+            style="@style/TicTacToeButton.Game"
+            android:tag="7" />
+        <Button
+            android:id="@+id/btn_8"
+            style="@style/TicTacToeButton.Game"
+            android:tag="8"
+            tools:text="O" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/start_game_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:text="Start Game"
+        android:padding="12dp"
+        android:backgroundTint="@color/start_button_color"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

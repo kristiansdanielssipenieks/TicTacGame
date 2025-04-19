@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="game_background">#FFFAF0E6</color> <color name="status_text_color">#FF4682B4</color> <color name="grid_background">#FFC0C0C0</color> <color name="button_background_normal">#FFE0FFFF</color> <color name="button_background_pressed">#FFB0E0E6</color> <color name="player_x_color">#FFDC143C</color> <color name="player_o_color">#FF00008B</color> <color name="start_button_color">#FF32CD32</color> </resources>

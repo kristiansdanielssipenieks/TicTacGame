@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_margin="8dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Player Names:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/player1_name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player X Name (e.g., Alice)"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/player2_name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Player O Name (e.g., Bob)"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Game Mode:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/game_mode_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/mode_pvp_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player vs Player"
+            android:checked="true"
+            android:layout_marginEnd="16dp"/>
+
+        <RadioButton
+            android:id="@+id/mode_pvc_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player vs Computer"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Greeting:"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/custom_greeting_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a greeting (optional)"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/play_offline_btn"
+        android:text="Start Game"
+        android:layout_margin="16dp"
+        android:padding="8dp"/>
+
+</LinearLayout>
